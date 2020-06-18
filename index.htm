@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Body Mass Index</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form id="bmi-form" class="form">
+      <h3>Body Mass Index</h3>
+      <div class="form-group">
+        <label for="bodyweight">Enter Weight in Pounds</label>
+        <input type="text" id="weight" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="bodyheight">Enter Height in Inches</label>
+        <input type="text" id="height" class="form-control">
+      </div>
+      <div class="form-group">
+        <input class="btn" type="submit" value="C a l c u l a t e">
+      </div>
+    </form>
+    <!-- Result -->
+    <div id="results" class="form">
+      <!-- <h3>Result</h3> -->
+      <div class="form-group">
+        <textarea name="result" id="res" cols="40" rows="4" disabled></textarea>
+        <!-- <input type="number" id="res" class="form-control"> -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
